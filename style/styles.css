@@ -77,7 +77,6 @@ body {
         background-color: #DAA520;
         border-radius: 25px;
         border-radius: 25px;
-        border: 1px solid red;
     }
 
     100% {
@@ -109,14 +108,14 @@ body {
 @keyframes anim_homem_aranha {
   
     0%{
-        transform: scale(1) translate(-11%, 0%) rotate(0deg);
+        transform: scale(1) translate(-10%, 0%) rotate(7deg);
     }
     50%{
-        transform: scale(1) translate(11%, 0%) rotate(-7deg);
+        transform: scale(1) translate(10%, 0%) rotate(-7deg);
     }
     
     100% {
-        transform: scale(1) translate(-11%, 0%) rotate(0deg);
+        transform: scale(1) translate(-10%, 0%) rotate(7deg);
     }
 
 }
