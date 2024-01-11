@@ -34,67 +34,65 @@ body {
 }
 
 .data_lancamento {
-    align-self: center;
-    font-size: 50px;
-    color: white;
+    padding-right: 15px;
+    align-self: flex-end;
+    font-size: 70px;
+    background: linear-gradient(to top, #000000 0%, #808080 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     flex-basis: min-content;
-    -webkit-text-stroke-width: 2.5px;
-    /* largura da borda */
-    -webkit-text-stroke-color: #2E3C85;
-    font-weight: bold;
-    font-family: cursive;
-    text-shadow: black 0.1em 0.1em 0.2em;
-    animation: text-animation 2s infinite, animation-data 2s infinite;
+    -webkit-text-stroke-width: 1px;
+    font-family: avengeance;
+    animation: text-animation 2.5s infinite;
+    transition-timing-function: ease-out;
+}
+
+@font-face {
+    font-family: "avengeance";
+    src: url(../assets/fonte/AVENGEANCE_HEROIC_AVENGER.ttf);
 }
 
 @keyframes text-animation {
     0% {
         opacity: 100%;
-        color: orange;
-        -webkit-text-stroke-color: white;
     }
 
     50% {
-        opacity: 0%;
-        color: red;
+        opacity: 50%;
 
     }
 
     100% {
-        color: orange;
-        -webkit-text-stroke-color: white;
-    }
-}
-
-@keyframes animation-data {
-    0% {
         opacity: 0%;
-        border-radius: 25px;
-    }
 
-    50% {
-        opacity: 100%;
-        background-color: #DAA520;
-        border-radius: 25px;
-        border-radius: 25px;
-    }
-
-    100% {
-        border-radius: 25px;
-        opacity: 0%;
     }
 }
 
 .capitao_america {
     max-width: 16%;
     align-self: flex-end;
+    animation: animation_capitao 3s alternate;
+}
+
+@keyframes animation_capitao {
+    0% {
+        margin-left: -60px;
+        opacity: 0%;
+    }
+
+    100% {
+        margin-left: 0px;
+        opacity: 100%;
+    }
 }
 
 .homem_ferro {
     width: 18%;
     align-self: self-end;
     margin-right: 45px;
+    animation: animation_homem_ferro 3s alternate;
 }
+
 
 .homem_aranha {
     position: absolute;
@@ -105,17 +103,30 @@ body {
 
 }
 
-@keyframes anim_homem_aranha {
-  
-    0%{
-        transform: scale(1) translate(-10%, 0%) rotate(7deg);
+@keyframes animation_homem_ferro {
+    0% {
+        margin-right: 0px;
+        opacity: 0%;
     }
-    50%{
-        transform: scale(1) translate(10%, 0%) rotate(-7deg);
-    }
-    
+
     100% {
-        transform: scale(1) translate(-10%, 0%) rotate(7deg);
+        margin-right: 45px;
+        opacity: 100%;
+    }
+}
+
+@keyframes anim_homem_aranha {
+
+    0% {
+        transform: scale(1) translate(-10%, 0%) rotate(6deg);
+    }
+
+    50% {
+        transform: scale(1) translate(10%, 0%) rotate(-6deg);
+    }
+
+    100% {
+        transform: scale(1) translate(-10%, 0%) rotate(6deg);
     }
 
 }
