@@ -5,7 +5,7 @@ Clique para ver o projeto em execução
 https://leokrindges.github.io/pagina_de_um_filme_animada/
 
 <picture>
- <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Leokrindges.png">
- <source media="(prefers-color-scheme: light)" srcset="https://github.com/Leokrindges.png">
- <img alt="YOUR-ALT-TEXT" src="https://github.com/Leokrindges.png">
+ <source media="(prefers-color-scheme: dark)" srcset="https://leokrindges.github.io/pagina_de_um_filme_animada">
+ <source media="(prefers-color-scheme: light)" srcset="https://leokrindges.github.io/pagina_de_um_filme_animada">
+ <img alt="YOUR-ALT-TEXT" src="https://leokrindges.github.io/pagina_de_um_filme_animada">
 </picture>
