@@ -3,7 +3,4 @@
 
 https://leokrindges.github.io/pagina_de_um_filme_animada/
 
-<picture>
-    <img src="https://leokrindges.github.io/pagina_de_um_filme_animada/" alt="" srcset="">
-    
-</picture>
+![](https://leokrindges.github.io/pagina_de_um_filme_animada/)
