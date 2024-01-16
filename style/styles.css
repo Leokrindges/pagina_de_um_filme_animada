@@ -71,7 +71,7 @@ body {
 .capitao_america {
     max-width: 16%;
     align-self: flex-end;
-    animation: animation_capitao 3s alternate;
+    animation: animation_capitao 4s alternate;
 }
 
 @keyframes animation_capitao {
@@ -90,14 +90,14 @@ body {
     width: 18%;
     align-self: self-end;
     margin-right: 45px;
-    animation: animation_homem_ferro 3s alternate;
+    animation: animation_homem_ferro 4s alternate;
 }
 
 
 .homem_aranha {
     position: absolute;
     width: 20%;
-    right: 50px;
+    right: 85px;
     top: 0;
     animation: anim_homem_aranha 3s infinite;
 
